@@ -1,0 +1,68 @@
+.main-cards-section{
+    background-color: #2a403d;
+}
+.all-card-div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards-all{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.smae-card{
+    width: 23%;
+    height: 350px;
+    border-radius: 10px;
+}
+.one-card{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=a956bdcef0e9e7f75bf3cd618fab3613f8cf7408-11379423-images-thumbs&n=13') ;
+}
+.two-card{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=0fd86bc730e9e71fe571807c0758ed4cbb821348-8234358-images-thumbs&n=13') ;
+}
+.three-card{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=885ea7942b971766b9762c6136d8714c6675f14c-9858449-images-thumbs&n=13') ;
+}
+.four-card{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=1f064ffc735773d701912a169d59a9099a4f23da-7765566-images-thumbs&n=13') ;
+}
+.smae-card:hover{
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.five-card{
+    background: linear-gradient(to top, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=88a23f0eab00680937a4c24d8dd7aae181423bce-12569903-images-thumbs&n=13') ;
+}
+.six-card{
+    background: linear-gradient(to top, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=e6a22df4335685c8cd13d071a85cdcccefe618a0-5232078-images-thumbs&n=13') ;
+}
+.seven-card{
+    background: linear-gradient(to top, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=a8a718e3a59ec247370090abaf9592ab3bfb3671-12513510-images-thumbs&n=13') ;
+}
+.eight-card{
+    background: linear-gradient(to top, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=74c6b5f7203f66ad915b9ac5e1a4dac2968e7229-10449875-images-thumbs&n=13') ;
+}
+
+@media (max-width: 767px) {
+    .all-card-div{
+        width: 95%;
+    }
+    .smae-card{
+        width: calc(49%);
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .smae-card h1{
+        font-size: 15px;
+    }
+}

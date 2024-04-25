@@ -1,0 +1,15 @@
+.main-footer-div{
+    background-color: #2a403d;
+}
+.main-footer{
+    width: 90%;
+}
+.linne{
+    background-color: white;
+    height: 1px;
+}
+@media (max-width: 768px){
+    .hid{
+        display: none;
+    }
+}

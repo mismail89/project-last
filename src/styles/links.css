@@ -1,0 +1,47 @@
+.main-links-data{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.links-arrow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-arrow h1{
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gainsboro;
+    font-size: 20px;
+}
+.links-arrow h1:hover{
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.links-arrow h1 a:last-child {
+    display: none;
+}
+
+/* Display the arrow when hovering over the h1 tag */
+.links-arrow h1:hover a:last-child {
+    display: inline-block; 
+}
+
+@media (max-width: 767px) {
+    .links-arrow {
+        flex-direction: column;
+    }
+    .links-arrow h1{
+        width: 100%;
+        font-size: 15px;
+    }
+}

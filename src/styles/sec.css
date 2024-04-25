@@ -1,0 +1,53 @@
+.lower-card{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.img-card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.img-card div{
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(14, 14, 110);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card div img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .lower-card {
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+        overflow-y: hidden;
+    }
+    .img-card {
+        width: 950px; /* Set the width to accommodate all slides */
+        display: flex;
+        gap: 10px;
+    }
+    .lower-card::-webkit-scrollbar {
+        display: none; /* Hide the scrollbar */
+    }
+    .card-text{
+        width: 950px;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    }
+    .card-text h3{
+        width: 150px;
+    }
+}

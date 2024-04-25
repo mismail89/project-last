@@ -1,0 +1,91 @@
+.main-slides-last{
+    background-color: #2a403d;
+}
+.main-slide{
+    width: 90%;
+}
+.each-slide{
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+}
+.each-slide .upper-data-link{
+    width: 100%;
+}
+.upper-data-link button{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 8px 8px;
+}
+.lower-data-link{
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.each-slide:hover{
+    cursor: pointer;
+}
+
+.each-slide:hover .lower-data-link button{
+    border-bottom: 2px solid #1a3733;
+}
+.each-first{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=88a23f0eab00680937a4c24d8dd7aae181423bce-12569903-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.each-second{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=4dca27f022c9cdcfef000a01a7eb14480362c830-9065836-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.each-last{
+    background: linear-gradient(to bottom, transparent, #346d65), url('https://avatars.mds.yandex.net/i?id=e71e32b9729fc574619f34d913aa72f8d1309f48-9146142-images-thumbs&n=13') ;
+    background-size: cover;
+}
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: max-content; /* Allow the wrapper to grow beyond the viewport width */
+}
+.main-sliddes{
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch
+}
+
+
+@media (max-width: 767px) {
+    .main-sliddes {
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    }
+    
+    
+    
+    .slider-wrapper {
+        width: 300%; /* Set the width to accommodate all slides */
+        display: flex;
+        gap: 10px;
+    }
+    
+    .each-slide {
+        width: 100vw; /* Each slide takes full viewport width */
+        flex-shrink: 0; /* Prevent slides from shrinking */
+        padding: 0 16px; /* Add padding to each slide */
+        box-sizing: border-box; /* Ensure padding is included in width calculation */
+    }
+    .main-sliddes::-webkit-scrollbar {
+        display: none; /* Hide the scrollbar */
+    }
+}
+.buttons{
+    background-color: #2a403d;
+}
+
+
