@@ -7,7 +7,7 @@ export default function sec() {
     <div className='card-sec py-8 bg-black'>
         <div className='main-card flex flex-col bg-black'>
             <div className='upper-card text-white flex justify-start items-center mt-10'>
-                <h1 className=' ml-8 uppercase text-4xl'>Snapshots</h1>
+                <h1 className=' ml-8 uppercase text-4xl'>Projects</h1>
             </div>
             <div className='lower-card mb-8'>
                 <div className='img-card'>
