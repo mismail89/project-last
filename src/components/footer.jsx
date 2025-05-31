@@ -134,7 +134,7 @@ export default function footer() {
                 <a href="" className='ml-8'>Security Policy</a>
                 <a href="" className='ml-8'>California Notice at Collection</a>
                 <a href="" className='ml-8'>Customize Cookies</a>
-                <h3 className='text-slate-300 mt-4 ml-8'>©2024 TATA Consultancy Services Limited</h3>
+                <h3 className='text-slate-300 mt-4 ml-8'>©2024 services Limited</h3>
             </div>
     </div>
     </>
